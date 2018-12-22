@@ -45,6 +45,10 @@ on early-init
     # Change ownership of sysfs power control node
     chown system graphics /sys/class/drm/card0/device/power/control
 
+on init
+    # Loading kernel modules in background
+    start insmod_sh
+
 on late-fs
     chown system system /sys/class/backlight/panel0-backlight/brightness
     chown system system /sys/class/backlight/panel0-backlight/max_brightness
@@ -57,14 +61,11 @@ on late-fs
     start vendor.qti.hardware.display.allocator
 
 on early-boot
-    # set RLIMIT_MEMLOCK to 64MB
-    setrlimit 8 67108864 67108864
+    # Wait for insmod_sh to finish all modules
+    wait_for_prop vendor.all.modules.ready 1
 
-    # Allow subsystem (modem etc) debugging
-    write /sys/kernel/boot_adsp/boot 1
-    write /sys/kernel/boot_cdsp/boot 1
-    write /sys/devices/virtual/npu/msm_npu/boot 1
-    write /sys/devices/virtual/cvp/cvp/boot 1
+    # Wait for insmod_sh to finish all boot devices
+    wait_for_prop vendor.all.devices.ready 1
 
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qcom.early_boot.sh
 
@@ -135,6 +136,9 @@ on boot
     enable vendor.dataadpl
 
 on post-fs-data
+    # set RLIMIT_MEMLOCK to 64MB
+    setrlimit 8 67108864 67108864
+
     # Create directory used by display clients
     mkdir /data/vendor/display 0770 system graphics
 
@@ -256,6 +260,13 @@ service vendor.qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
     group root system radio
+    oneshot
+
+service insmod_sh /vendor/bin/init.insmod.sh /vendor/etc/init.insmod.cfg
+    class main
+    user root
+    group root system
+    disabled
     oneshot
 
 on property:ro.vendor.ril.mbn_copy_completed=1

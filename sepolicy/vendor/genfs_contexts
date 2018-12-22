@@ -57,3 +57,7 @@ genfscon sysfs /power/rpmh_stats/master_stats u:object_r:sysfs_power_stats:s0
 
 # Atrace
 genfscon debugfs /tracing/events/fastrpc/fastrpc_dma_stat        u:object_r:debugfs_tracing:s0
+
+# Insmod
+genfscon sysfs /kernel/boot_cdsp/boot u:object_r:sysfs_msm_boot:s0
+genfscon sysfs /kernel/boot_slpi/boot u:object_r:sysfs_msm_boot:s0
