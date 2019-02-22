@@ -162,6 +162,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey
 
+# External exFat tools
+PRODUCT_PACKAGES += \
+    mkfs.exfat \
+    fsck.exfat
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.surya
