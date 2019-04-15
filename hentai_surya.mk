@@ -42,6 +42,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_product.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
+# Inherit updatable APEX
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 $(call inherit-product, device/xiaomi/surya/device.mk)
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
