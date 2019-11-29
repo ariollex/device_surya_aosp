@@ -67,4 +67,6 @@ def OTA_InstallEnd(info, input_zip):
   AddImageRadio(info, input_zip, "devcfg.mbn", "/dev/block/bootdevice/by-name/devcfg")
   AddImageRadio(info, input_zip, "xbl.elf", "/dev/block/bootdevice/by-name/xbl")
   AddImageRadio(info, input_zip, "ffu.img", "/dev/block/bootdevice/by-name/ffu")
+
+  info.script.AppendExtra('run_program("/system/bin/rm", "-rf", "/data/system/package_cache");')
   return
