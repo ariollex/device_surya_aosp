@@ -257,6 +257,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout)
 
+# Kernel Modules
+BOARD_VENDOR_KERNEL_MODULES += $(wildcard device/xiaomi/surya-kernel/modules/*.ko)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.qti \
