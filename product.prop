@@ -6,6 +6,9 @@ ro.product.manufacturer=Google
 ro.product.model=Pixel 5
 ro.product.name=redfin
 
+# Display cutout feature
+ro.support_hide_display_cutout=true
+
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true

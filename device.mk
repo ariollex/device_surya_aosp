@@ -303,7 +303,8 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 
 PRODUCT_PACKAGES += \
     KarnaPowerProfile \
-    NotchBarKiller
+    NotchBarKiller \
+    NoCutoutOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
