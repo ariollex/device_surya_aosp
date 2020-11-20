@@ -10,6 +10,9 @@ ro.product.manufacturer=Google
 ro.product.model=Pixel 5
 ro.product.name=redfin
 
+# Display - Set support hide display cutout feature
+ro.support_hide_display_cutout=true
+
 # Enable skia reduceOpsTaskSplitting
 renderthread.skia.reduceopstasksplitting=true
 
