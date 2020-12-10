@@ -188,6 +188,7 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Media
 debug.media.codec2=2
+debug.media.transcoding.codec_max_operating_rate=120
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=512
 debug.stagefright.c2inputsurface=-1
