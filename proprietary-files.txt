@@ -113,6 +113,7 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 
 # Camera
+lib/libcameraservice.so|7386a421c2be40f99a3b4ccaf7f91b70d4aba3cc
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/hw/camera.qcom.so
