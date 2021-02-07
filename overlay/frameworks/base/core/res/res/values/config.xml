@@ -588,4 +588,7 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
      <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">90</integer>
 </resources>
