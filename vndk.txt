@@ -16,14 +16,17 @@ android.hardware.audio.common@2.0
 android.hardware.audio.common@4.0
 android.hardware.audio.common@5.0
 android.hardware.audio.common@6.0
+android.hardware.audio.common@7.0
 android.hardware.audio.effect@2.0
 android.hardware.audio.effect@4.0
 android.hardware.audio.effect@5.0
 android.hardware.audio.effect@6.0
+android.hardware.audio.effect@7.0
 android.hardware.audio@2.0
 android.hardware.audio@4.0
 android.hardware.audio@5.0
 android.hardware.audio@6.0
+android.hardware.audio@7.0
 android.hardware.authsecret@1.0
 android.hardware.automotive.audiocontrol@1.0
 android.hardware.automotive.audiocontrol@2.0
