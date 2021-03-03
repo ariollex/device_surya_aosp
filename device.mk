@@ -375,6 +375,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/xiaomi
 
+# System properties identifying the chipset
+PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Qualcomm
+PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SM7150
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
