@@ -9,3 +9,7 @@ ro.product.name=redfin
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true
+
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM7150
