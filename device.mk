@@ -124,6 +124,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
+# CarrierSettings
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/configs/permissions/google-hiddenapi-package-whitelist-carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist-carriersettings.xml \
+   $(LOCAL_PATH)/configs/permissions/privapp-permissions-google-carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-carriersettings.xml
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
