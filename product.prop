@@ -10,6 +10,9 @@ ro.product.manufacturer=Google
 ro.product.model=Pixel 5
 ro.product.name=redfin
 
+# Enable skia reduceOpsTaskSplitting
+renderthread.skia.reduceopstasksplitting=true
+
 # Sounds
 ro.config.alarm_alert=Bright_morning.ogg
 ro.config.notification_sound=Popcorn.ogg
