@@ -228,7 +228,7 @@ on enable-low-power
 on property:sys.boot_completed=1
     trigger enable-low-power
 
-service vendor.charger /system/bin/charger
+service vendor.charger /system/bin/chargeonlymode
     class charger
     user system
     group system graphics input
