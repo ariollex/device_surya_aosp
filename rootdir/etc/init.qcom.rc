@@ -260,6 +260,13 @@ on property:ro.vendor.ril.mbn_copy_completed=1
 on property:ro.boot.hwversion=*
     setprop ro.boot.hardware.revision ${ro.boot.hwversion}
 
+service vendor.charger /system/bin/chargeonlymode
+    class charger
+    user system
+    group system graphics input
+    capabilities SYS_BOOT
+    seclabel u:r:charger:s0
+
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
     class hal

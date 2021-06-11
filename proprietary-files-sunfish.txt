@@ -96,6 +96,9 @@ vendor/lib64/soundfx/libvolumelistener.so
 system_ext/lib64/libaptXHD_encoder.so
 system_ext/lib64/libaptX_encoder.so
 
+# Charger
+system/system/bin/charger:bin/chargeonlymode
+
 # Configstore
 vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
