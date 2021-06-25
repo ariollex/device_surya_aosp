@@ -672,12 +672,6 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqtikeymaster4.so
 
-# Listen
-vendor/lib/hw/sound_trigger.primary.sm6150.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libmulawdec.so
-vendor/lib/libsmwrapper.so
-
 # Media C2
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
@@ -884,6 +878,9 @@ vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
+
+# Sound Trigger
+vendor/lib/hw/sound_trigger.primary.sm6150.so
 
 # Thermal
 vendor/bin/mi_thermald
