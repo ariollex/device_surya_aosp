@@ -25,6 +25,7 @@ PRODUCT_VENDOR_KERNEL_HEADERS := \
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
+BOARD_SHIPPING_API_LEVEL := 29
 
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
