@@ -1,3 +1,11 @@
+# Device mask
+ro.build.fingerprint=google/redfin/redfin:12/SQ1A.220205.002/8010174:user/release-keys
+ro.product.brand=google
+ro.product.device=redfin
+ro.product.manufacturer=Google
+ro.product.model=Pixel 5
+ro.product.name=redfin
+
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true
