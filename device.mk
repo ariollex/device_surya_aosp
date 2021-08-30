@@ -64,9 +64,6 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default
 
 PRODUCT_PACKAGES += \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
     libvolumelistener
 
