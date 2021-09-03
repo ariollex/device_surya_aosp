@@ -305,9 +305,7 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 
 PRODUCT_PACKAGES += \
     KarnaPowerProfile \
-    KarnaSettingsProviderOverlay \
-    NotchBarKiller \
-    SuryaSettingsProviderOverlay
+    NotchBarKiller
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -434,8 +432,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
-    KarnaWifiOverlay \
-    SuryaWifiOverlay \
     WifiOverlay
 
 PRODUCT_COPY_FILES += \
