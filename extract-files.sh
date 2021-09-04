@@ -62,6 +62,9 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so )
             "${PATCHELF}" --add-needed "lib-imsvt.so" "${2}"
             ;;
+        vendor/bin/mi_thermald)
+            sed -i "s|ug_cpu|ug_uwu|g" "${2}"
+            ;;
     esac
 }
 
