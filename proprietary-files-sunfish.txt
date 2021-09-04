@@ -67,6 +67,10 @@ vendor/lib64/soundfx/libreverbwrapper.so
 vendor/lib64/soundfx/libvisualizer.so
 vendor/lib64/soundfx/libvolumelistener.so
 
+# Configstore
+vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
+vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
+
 # Display
 vendor/lib/libdisplayconfig.qti.so
 vendor/lib/libdisplaydebug.so
