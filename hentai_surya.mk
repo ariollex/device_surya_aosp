@@ -61,7 +61,7 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Inherit some common hentaiOS stuff.
-$(call inherit-product, vendor/hentai/config/common.mk)
+$(call inherit-product, vendor/hentai/config/common_telephony.mk)
 $(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
 
 PRODUCT_NAME := hentai_surya
