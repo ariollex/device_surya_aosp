@@ -193,6 +193,7 @@ debug.stagefright.omx_default_rank=512
 debug.stagefright.c2inputsurface=-1
 vendor.qc2.venc.avgqp.enable=1
 vendor.media.omx=0
+vidc.enc.dcvs.extra-buff-count=2
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
