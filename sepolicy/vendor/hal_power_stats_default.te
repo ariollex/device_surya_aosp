@@ -1,0 +1,22 @@
+type sysfs_iio, fs_type, sysfs_type;
+type sysfs_power_stats, sysfs_type, fs_type;
+type sysfs_kgsl, sysfs_type, fs_type;
+type sysfs_devfreq, sysfs_type, fs_type;
+type debugfs_rpm, debugfs_type, fs_type;
+type debugfs_wlan, debugfs_type, fs_type;
+
+allow hal_power_stats_default sysfs_iio:dir r_dir_perms;
+allow hal_power_stats_default sysfs_iio:file r_file_perms;
+allow hal_power_stats_default sysfs_iio:lnk_file read;
+allow hal_power_stats_default sysfs:dir { read } ;
+allow hal_power_stats_default sysfs_kgsl:dir search;
+allow hal_power_stats_default sysfs_power_stats:dir search; # Needed to traverse to wlan stats file
+get_prop(hal_power_stats_default, exported_wifi_prop) # Needed to detect wifi on/off
+r_dir_file(hal_power_stats_default, sysfs_power_stats)
+r_dir_file(hal_power_stats_default, sysfs_devfreq)
+r_dir_file(hal_power_stats_default, debugfs_rpm)
+r_dir_file(hal_power_stats_default, debugfs_wlan)
+r_dir_file(hal_power_stats_default, sysfs_kgsl)
+
+vndbinder_use(hal_power_stats)
+add_service(hal_power_stats_server, power_stats_service)
