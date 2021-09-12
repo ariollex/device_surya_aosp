@@ -442,6 +442,40 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
+# Display HAL
+vendor/bin/hw/vendor.qti.hardware.display.allocator-service
+vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
+vendor/lib/hw/android.hardware.graphics.mapper@3.0-impl-qti-display.so
+vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
+vendor/lib/hw/gralloc.sm6150.so
+vendor/lib/hw/hwcomposer.sm6150.so
+vendor/lib/hw/memtrack.sm6150.so
+vendor/lib/libgralloc.qti.so
+vendor/lib/libgralloccore.so
+vendor/lib/libgrallocutils.so
+vendor/lib/libsdmcore.so
+vendor/lib/libsdmutils.so
+vendor/lib/vendor.qti.hardware.display.mapper@3.0.so
+vendor/lib/vendor.qti.hardware.display.mapper@4.0.so
+vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
+vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
+vendor/lib64/hw/android.hardware.graphics.mapper@3.0-impl-qti-display.so
+vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
+vendor/lib64/hw/gralloc.sm6150.so
+vendor/lib64/hw/hwcomposer.sm6150.so
+vendor/lib64/hw/memtrack.sm6150.so
+vendor/lib64/libgralloc.qti.so
+vendor/lib64/libgralloccore.so
+vendor/lib64/libgrallocutils.so
+vendor/lib64/vendor.qti.hardware.display.allocator@3.0.so
+vendor/lib64/vendor.qti.hardware.display.allocator@4.0.so
+vendor/lib64/vendor.qti.hardware.display.mapper@3.0.so
+vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so
+vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
+
 # Display - from NX627J 20201029.204053
 vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
