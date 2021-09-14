@@ -67,6 +67,10 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 $(call inherit-product, vendor/hentai/config/common_telephony.mk)
 $(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
 
+# HentaiOS Stuff
+PRODUCT_PACKAGES += \
+    HentaiWallpaperDark
+
 PRODUCT_NAME := hentai_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
