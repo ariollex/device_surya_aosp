@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# kernel headers
+PRODUCT_VENDOR_KERNEL_HEADERS := \
+    device/xiaomi/surya-kernel/kernel-headers
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
