@@ -103,23 +103,15 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_surya
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_PAGESIZE := 4096
-BOARD_KERNEL_SEPARATED_DTBO := true
 
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
-KERNEL_LD := LD=ld.lld
-
-TARGET_KERNEL_ADDITIONAL_FLAGS := \
-    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
-TARGET_KERNEL_ADDITIONAL_FLAGS += \
-    AR=llvm-ar AS=llvm-as NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
-
 TARGET_KERNEL_APPEND_DTB := false
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := r433403
-TARGET_KERNEL_CONFIG := surya_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
+BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/surya-kernel
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/Image.gz
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)-kernel/sdmmagpie.dtb
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a600000.dwc3
