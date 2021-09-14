@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# Kernel
+LOCAL_KERNEL := device/xiaomi/surya-kernel/Image.gz
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
 # kernel headers
 PRODUCT_VENDOR_KERNEL_HEADERS := \
     device/xiaomi/surya-kernel/kernel-headers
