@@ -10,3 +10,8 @@ ro.product.device=redfin
 ro.product.manufacturer=Google
 ro.product.model=Pixel 5
 ro.product.name=redfin
+
+# Sounds
+ro.config.alarm_alert=Bright_morning.ogg
+ro.config.notification_sound=Popcorn.ogg
+ro.config.ringtone=The_big_adventure.ogg
