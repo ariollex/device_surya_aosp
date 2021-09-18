@@ -134,6 +134,7 @@ vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_default_color_mode=1
 vendor.display.enable_optimize_refresh=1
 vendor.display.qdcm.mode_combine=1
+vendor.display.defer_fps_frame_count=2
 
 # Display - Dynamic refresh rate
 ro.surface_flinger.set_display_power_timer_ms=1000
