@@ -43,7 +43,10 @@ on early-init
     # Change ownership of sysfs power control node
     chown system graphics /sys/class/drm/card0/device/power/control
 
-on late-init
+on late-fs
+    chown system system /sys/class/backlight/panel0-backlight/brightness
+    chown system system /sys/class/backlight/panel0-backlight/max_brightness
+
     # Start services for bootanim
     start surfaceflinger
     start bootanim
@@ -120,9 +123,6 @@ on boot
 
     # limit discard size to 128MB in order to avoid long IO latency
     write /sys/block/sda/queue/discard_max_bytes 134217728
-
-    chown system system /sys/class/backlight/panel0-backlight/brightness
-    chown system system /sys/class/backlight/panel0-backlight/max_brightness
 
     # Enable qcrild and data services
     enable vendor.qcrild
