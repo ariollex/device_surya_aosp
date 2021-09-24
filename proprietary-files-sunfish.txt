@@ -227,3 +227,10 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
+
+# Time
+-vendor/app/TimeService/TimeService.apk
+vendor/bin/time_daemon
+vendor/etc/init/init.time_daemon.rc
+vendor/lib64/libtime_genoff.so
+vendor/lib/libtime_genoff.so
