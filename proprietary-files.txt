@@ -11,32 +11,9 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio ACDB
-vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
-
 # Audio ADSP
-vendor/bin/adsprpcd
-vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
-vendor/lib/libcdsp_default_listener.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
 
 # Audio ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
