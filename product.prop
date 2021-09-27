@@ -15,3 +15,6 @@ ro.product.name=redfin
 ro.config.alarm_alert=Bright_morning.ogg
 ro.config.notification_sound=Popcorn.ogg
 ro.config.ringtone=The_big_adventure.ogg
+
+# Time-services
+persist.timed.enable=true
