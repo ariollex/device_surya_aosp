@@ -3,8 +3,7 @@ ro.config.low_ram=false
 ro.lmk.log_stats=true
 
 # Device mask
-ro.build.fingerprint=google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys
-ro.build.description=redfin-user 11 RQ3A.210905.001 7511028 release-keys
+ro.build.fingerprint=google/redfin/redfin:12/SP1A.210812.016.A1/7796139:user/release-keys
 ro.product.brand=google
 ro.product.device=redfin
 ro.product.manufacturer=Google
