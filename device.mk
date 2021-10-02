@@ -367,6 +367,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SystemUIGoogleOverlayHentai
 
+# Google SystemUI overlay
+PRODUCT_PACKAGES += \
+    SettingsGoogleOverlayHentaiSurya
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
