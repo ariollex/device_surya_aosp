@@ -42,4 +42,9 @@
     <bool name="doze_suspend_display_state_supported">false</bool>
 
     <dimen name="proximity_sensor_threshold">1</dimen>
+
+    <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
+    <string name="quick_settings_tiles_stock" translatable="false">
+        internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,nfc,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness
+    </string>
 </resources>
