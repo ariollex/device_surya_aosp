@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2021 KudProject Development
+  ~ SPDX-License-Identifier: Apache-2.0
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"အကြောင်းအရာအချို့အတွက် refresh rate ကို 60 မှ 120 Hz သို့အလိုအလျောက်မြင့်တက်စေသည်။ ဘက်ထရီအသုံးပြုမှုကိုတိုးစေသည်။"</string>
+    <string name="force_high_refresh_rate_toggle" msgid="5861514655252832828">"၉၀ Hz ပြန်ဖွင့်မှုနှုန်းကို မဖြစ်မနေအသုံးပြုရန်"</string>
+</resources>

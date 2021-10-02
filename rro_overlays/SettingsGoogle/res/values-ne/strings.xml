@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2021 KudProject Development
+  ~ SPDX-License-Identifier: Apache-2.0
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"केहि सामग्री को लागी, रिफ्रेस दर स्वचालित रूप बाट 60 हर्ट्ज बाट 120 हर्ट्ज सम्म बढेको छ। ब्याट्री ड्रेन बढाउँछ।"</string>
+    <string name="force_high_refresh_rate_toggle" msgid="5861514655252832828">"रिफ्रेस गर्ने दर बलपूर्वक ९० हर्ज बनाउनुहोस्"</string>
+</resources>
