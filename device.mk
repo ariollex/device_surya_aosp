@@ -321,8 +321,8 @@ PRODUCT_COPY_FILES += \
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    SystemUI
+    SettingsGoogle \
+    SystemUIGoogle
 
 # QTI
 PRODUCT_PACKAGES += \
