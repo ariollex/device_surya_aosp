@@ -11,10 +11,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio ADSP
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-
 # Audio ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
