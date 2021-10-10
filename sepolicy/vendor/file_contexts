@@ -1,6 +1,9 @@
 # Audio
 /dev/socket/audio_hw_socket                                          u:object_r:audio_socket:s0
 
+# Atrace
+/vendor/bin/hw/android\.hardware\.atrace@1\.0-service.pixel u:object_r:hal_atrace_default_exec:s0
+
 # Battery secret
 /vendor/bin/batterysecret                                            u:object_r:batterysecret_exec:s0
 
