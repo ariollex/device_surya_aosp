@@ -68,6 +68,11 @@
         <transport>hwbinder</transport>
         <fqname>@2.2::ISoundTriggerHw/default</fqname>
     </hal>
+     <hal format="hidl">
+        <name>android.hardware.power.stats</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IPowerStats/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>com.dsi.ant</name>
         <transport>hwbinder</transport>
