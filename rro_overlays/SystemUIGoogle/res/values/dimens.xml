@@ -15,19 +15,19 @@
  * limitations under the License.
 -->
 <resources>
-    <!-- The padding on the top of the statusbar -->
-    <dimen name="status_bar_padding_top">4dp</dimen>
-
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">6dp</dimen>
+    <dimen name="status_bar_padding_start">16dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">6dp</dimen>
+    <dimen name="status_bar_padding_end">5dp</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">25dp</dimen>
 
     <!-- The padding on the side of the navigation bar. Must be greater than or equal to
          navigation_extra_key_width -->
     <dimen name="navigation_side_padding">85dp</dimen>
 
     <!-- the padding on the statusbar for rounded corners -->
-    <dimen name="rounded_corner_content_padding">16dp</dimen>
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
 </resources>
