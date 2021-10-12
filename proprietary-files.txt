@@ -915,6 +915,12 @@ vendor/firmware/novatek_ts_huaxing_mp.bin
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 
+# Vibrator
+vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
+vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
+vendor/lib64/libqtivibratoreffect.so
+vendor/lib64/vendor.qti.hardware.vibrator@1.2-impl.so
+
 # Vibrator firmware
 vendor/firmware/Drv2624Date.ini
 vendor/firmware/aw8624_haptic.bin
