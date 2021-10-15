@@ -16,5 +16,8 @@ ro.lmk.log_stats=true
 # Enable skia reduceOpsTaskSplitting
 renderthread.skia.reduceopstasksplitting=true
 
+# One-handed mode
+ro.support_one_handed_mode=true
+
 # System
 persist.sys.binary_xml=false
