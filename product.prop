@@ -16,3 +16,5 @@ ro.lmk.log_stats=true
 # Enable skia reduceOpsTaskSplitting
 renderthread.skia.reduceopstasksplitting=true
 
+# System
+persist.sys.binary_xml=false
