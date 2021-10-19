@@ -21,5 +21,8 @@ ro.config.alarm_alert=Bright_morning.ogg
 ro.config.notification_sound=Popcorn.ogg
 ro.config.ringtone=The_big_adventure.ogg
 
+# System
+persist.sys.binary_xml=false
+
 # Time-services
 persist.timed.enable=true
