@@ -264,6 +264,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout)
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.qti \
+    lights.sm6150
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
