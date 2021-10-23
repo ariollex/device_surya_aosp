@@ -255,7 +255,8 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.surya
+    android.hardware.lights-service.qti \
+    lights.sm6150
 
 # Media
 PRODUCT_PACKAGES += \
