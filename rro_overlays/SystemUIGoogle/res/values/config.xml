@@ -50,4 +50,6 @@
 
     <!-- Whether global actions should show an informational message about changes in S -->
     <bool name="global_actions_show_change_info">true</bool>
+
+    <bool name="can_use_one_handed_bouncer">true</bool>
 </resources>
