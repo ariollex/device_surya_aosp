@@ -2,6 +2,9 @@
 ro.config.low_ram=false
 ro.lmk.log_stats=true
 
+# CNE
+persist.vendor.cne.feature=1
+
 # Device mask
 ro.build.fingerprint=google/redfin/redfin:12/SP1A.210812.016.A1/7796139:user/release-keys
 ro.product.brand=google
