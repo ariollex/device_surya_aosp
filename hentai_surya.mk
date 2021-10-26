@@ -28,6 +28,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# Enforce privapp-permissions whitelist.
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.control_privapp_permissions=enforce
+
 PRODUCT_NAME := hentai_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
