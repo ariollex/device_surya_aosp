@@ -67,6 +67,10 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 $(call inherit-product, vendor/hentai/config/common_telephony.mk)
 $(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
 
+# Enforce privapp-permissions whitelist.
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.control_privapp_permissions=enforce
+
 # HentaiOS Stuff
 PRODUCT_PACKAGES += \
     HentaiWallpaperDark
