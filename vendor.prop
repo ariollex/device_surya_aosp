@@ -142,7 +142,6 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
-vendor.display.defer_fps_frame_count=2
 vendor.display.disable_decimation=1
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
