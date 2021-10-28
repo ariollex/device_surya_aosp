@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# define hardware platform
+PRODUCT_PLATFORM := sm7150
+
 # Kernel
 LOCAL_KERNEL := device/xiaomi/surya-kernel/Image.gz
 PRODUCT_COPY_FILES += \
