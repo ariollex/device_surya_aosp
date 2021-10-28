@@ -11,6 +11,7 @@ from pathlib import Path
 
 FILES = [Path(file) for file in [
     "proprietary-files.txt",
+    "proprietary-files-raven.txt",
     "proprietary-files-sunfish.txt",
 ]]
 
