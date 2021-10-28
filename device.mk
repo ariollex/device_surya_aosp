@@ -403,7 +403,17 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/google/av \
+    hardware/google/pixel \
+    hardware/google/interfaces \
+    hardware/qcom/sm8150 \
+    hardware/qcom/sm8150/audio \
+    hardware/qcom/sm8150/display \
+    hardware/qcom/sm8150/gps \
+    hardware/qcom/sm8150/media \
+    vendor/qcom/opensource/commonsys-intf/display \
+    vendor/qcom/opensource/display
 
 # Telephony
 PRODUCT_PACKAGES += \
