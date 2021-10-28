@@ -399,8 +399,17 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/xiaomi \
-    hardware/qcom-caf/sm8150/display \
-    vendor/qcom/opensource/display-commonsys-intf
+    hardware/google/av \
+    hardware/google/pixel \
+    hardware/google/interfaces \
+    hardware/qcom/sm8150 \
+    hardware/qcom/sm8150/audio \
+    hardware/qcom/sm8150/display \
+    hardware/qcom/sm8150/gps \
+    hardware/qcom/sm8150/media \
+    vendor/qcom/opensource/data-ipa-cfg-mgr \
+    vendor/qcom/codeaurora/core-utils \
+    vendor/qcom/opensource/commonsys-intf/display
 
 # System properties identifying the chipset
 PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Qualcomm
