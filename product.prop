@@ -6,12 +6,12 @@ ro.lmk.log_stats=true
 persist.vendor.cne.feature=1
 
 # Device mask
-ro.build.fingerprint=google/redfin/redfin:12/SP1A.210812.016.A1/7796139:user/release-keys
+ro.build.fingerprint=google/raven/raven:12/SD1A.210817.019.C4/7770140:user/release-keys
 ro.product.brand=google
 ro.product.device=redfin
 ro.product.manufacturer=Google
-ro.product.model=Pixel 5
-ro.product.name=redfin
+ro.product.model=Pixel 6 Pro
+ro.product.name=raven
 
 # Display - Set support hide display cutout feature
 ro.support_hide_display_cutout=true
