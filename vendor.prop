@@ -133,7 +133,6 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
-vendor.display.defer_fps_frame_count=2
 vendor.display.disable_decimation=1
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
