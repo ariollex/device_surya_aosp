@@ -136,22 +136,12 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/permissions/privapp-permissions-google-carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-carriersettings.xml
 
 # Display
-PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-service \
-    android.hardware.graphics.mapper@3.0-impl-qti-display \
-    android.hardware.graphics.mapper@4.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.mapper@1.1.vendor
+TARGET_BOARD_PLATFORM := sm6150
 
-PRODUCT_PACKAGES += \
-    gralloc.sm6150 \
-    hwcomposer.sm6150 \
-    memtrack.sm6150
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.display.mapper@2.0.vendor
+include hardware/qcom/sm8150/display/config/display-board.mk
+include hardware/qcom/sm8150/display/config/display-product.mk
+include vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk
+include vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk
 
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -277,8 +267,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 PRODUCT_COPY_FILES += \
-    hardware/qcom-caf/sm8150/media/conf_files/sm6150/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    hardware/qcom-caf/sm8150/media/conf_files/sm6150/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
+    hardware/qcom/sm8150/media/conf_files/sm6150/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    hardware/qcom/sm8150/media/conf_files/sm6150/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -412,7 +402,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/sm8150/gps \
     hardware/qcom/sm8150/media \
     vendor/qcom/opensource/data-ipa-cfg-mgr \
-    vendor/qcom/codeaurora/core-utils
+    vendor/qcom/codeaurora/core-utils \
+    vendor/qcom/opensource/commonsys-intf/display
 
 # System properties identifying the chipset
 PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Qualcomm
@@ -500,7 +491,9 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libavservices_minijail_32 \
+    libdisplayconfig \
     libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libnl \
     libqdMetaData \
     libwfdaac_vendor
