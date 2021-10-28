@@ -136,22 +136,12 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/permissions/privapp-permissions-google-carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-carriersettings.xml
 
 # Display
-PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-service \
-    android.hardware.graphics.mapper@3.0-impl-qti-display \
-    android.hardware.graphics.mapper@4.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.mapper@1.1.vendor
+TARGET_BOARD_PLATFORM := sm6150
 
-PRODUCT_PACKAGES += \
-    gralloc.sm6150 \
-    hwcomposer.sm6150 \
-    memtrack.sm6150
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.display.mapper@2.0.vendor
+-include hardware/qcom/sm8150/display/config/display-board.mk
+-include hardware/qcom/sm8150/display/config/display-product.mk
+include vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk
+include vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk
 
 PRODUCT_PACKAGES += \
     disable_configstore
