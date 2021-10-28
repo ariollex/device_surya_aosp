@@ -22,6 +22,9 @@ renderthread.skia.reduceopstasksplitting=true
 # One-handed mode
 ro.support_one_handed_mode=true
 
+# PowerHAL
+vendor.powerhal.adpf.rate=8333333
+
 # Sounds
 ro.config.alarm_alert=Bright_morning.ogg
 ro.config.notification_sound=Popcorn.ogg
