@@ -17,3 +17,7 @@ vendor/lib64/soundfx/libldnhncr.so
 vendor/lib64/soundfx/libeffectproxy.so
 vendor/lib64/soundfx/liboffloadeffect.so
 vendor/lib64/soundfx/libhapticgenerator.so
+
+# Playing now
+product/etc/firmware/music_detector.sound_model
+product/etc/firmware/music_detector.sound_model_2
