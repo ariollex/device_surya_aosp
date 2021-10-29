@@ -17,3 +17,8 @@ vendor/lib64/soundfx/libldnhncr.so
 vendor/lib64/soundfx/liboffloadeffect.so
 vendor/lib64/soundfx/libreverbwrapper.so
 vendor/lib64/soundfx/libvisualizer.so
+
+# Playing now
+product/etc/firmware/music_detector.descriptor:system/etc/firmware/music_detector.descriptor
+product/etc/firmware/music_detector.sound_model:system/etc/firmware/music_detector.sound_model
+product/etc/firmware/music_detector.sound_model_2:system/etc/firmware/music_detector.sound_model_2
