@@ -6,7 +6,7 @@ ro.lmk.log_stats=true
 persist.vendor.cne.feature=1
 
 # Device mask
-ro.build.fingerprint=google/raven/raven:12/SD1A.210817.019.C4/7770140:user/release-keys
+ro.build.fingerprint=google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys
 ro.product.brand=google
 ro.product.device=raven
 ro.product.manufacturer=Google
