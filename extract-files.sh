@@ -61,6 +61,8 @@ function blob_fixup() {
         vendor/bin/mi_thermald)
             sed -i "s|ug_cpu|ug_uwu|g" "${2}"
             ;;
+        system_ext/lib64/lib-imsvideocodec.so)
+            "${PATCHELF}" --add-needed "libgui-shim.so" "${2}"
     esac
 }
 
