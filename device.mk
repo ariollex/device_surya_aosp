@@ -393,6 +393,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsGoogleOverlayHentaiSurya
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui-shim
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
