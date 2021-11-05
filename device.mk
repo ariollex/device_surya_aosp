@@ -390,6 +390,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsGoogleOverlay
 
+# HbmSVManagerSurya overlay
+PRODUCT_PACKAGES += \
+    HbmSVManagerSurya
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
