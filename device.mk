@@ -384,11 +384,11 @@ PRODUCT_PACKAGES += \
 
 # Google SystemUI overlay
 PRODUCT_PACKAGES += \
-    SystemUIGoogleOverlay
+    SystemUIGoogleOverlayHentai
 
-# SettingsGoogle overlay
+# Google SystemUI overlay
 PRODUCT_PACKAGES += \
-    SettingsGoogleOverlay
+    SettingsGoogleOverlayHentaiSurya
 
 # HbmSVManagerSurya overlay
 PRODUCT_PACKAGES += \
