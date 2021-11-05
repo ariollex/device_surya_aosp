@@ -17,39 +17,10 @@
 -->
 
 <resources>
-    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
-     vibrator is capable of subtle vibrations -->
-    <bool name="config_vibrateOnIconAnimation">true</bool>
-
-    <array name="config_doze_brightness_sensor_to_brightness">
-        <item>-1</item>
-        <item>6</item>
-        <item>5</item>
-        <item>25</item>
-        <item>25</item>
-    </array>
-    <array name="config_doze_brightness_sensor_to_scrim_opacity">
-        <item>-1</item>
-        <item>143</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-    </array>
-
-    <!-- Doze: does this device support STATE_DOZE?  -->
-    <bool name="doze_display_state_supported">true</bool>
-    <bool name="doze_double_tap_reports_touch_coordinates">true</bool>
-    <bool name="doze_suspend_display_state_supported">false</bool>
-
-    <dimen name="proximity_sensor_threshold">1</dimen>
-
     <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
     <string name="quick_settings_tiles_stock" translatable="false">
-        internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,nfc,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness
+internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,nfc,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness
     </string>
-
-    <!-- Whether global actions should show an informational message about changes in S -->
-    <bool name="global_actions_show_change_info">true</bool>
 
     <bool name="can_use_one_handed_bouncer">true</bool>
 </resources>

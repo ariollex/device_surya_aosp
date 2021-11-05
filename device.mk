@@ -384,11 +384,11 @@ PRODUCT_PACKAGES += \
 
 # Google SystemUI overlay
 PRODUCT_PACKAGES += \
-    SystemUIGoogleOverlayHentai
+    SystemUIGoogleOverlay
 
-# Google SystemUI overlay
+# SettingsGoogle overlay
 PRODUCT_PACKAGES += \
-    SettingsGoogleOverlayHentaiSurya
+    SettingsGoogleOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
