@@ -280,4 +280,11 @@
         <transport>hwbinder</transport>
         <fqname>@11.0::IDisplayConfig/default</fqname>
     </hal>
+    <hal format="aidl" optional="false">
+         <name>com.google.hardware.pixel.display</name>
+         <interface>
+             <name>IDisplay</name>
+             <instance>default</instance>
+         </interface>
+    </hal>
 </manifest>
