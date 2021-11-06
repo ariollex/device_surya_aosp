@@ -331,7 +331,7 @@ PRODUCT_PACKAGES += \
     AvoidAppsInCutoutOverlay
 
 PRODUCT_PACKAGES += \
-    SystemUIGoogleOverlayHentai \
+    SystemUIGoogleOverlaySurya \
     SettingsGoogleOverlaySurya
 
 # Partitions
