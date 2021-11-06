@@ -16,7 +16,7 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemui.overlay.hentai"
+    package="com.android.systemui.overlay.surya"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:isStatic="true" android:priority="10" android:targetPackage="com.android.systemui"/>
