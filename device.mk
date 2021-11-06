@@ -326,6 +326,10 @@ PRODUCT_PACKAGES += \
     NotchBarKiller \
     AvoidAppsInCutoutOverlay
 
+PRODUCT_PACKAGES += \
+    SystemUIGoogleOverlayHentai \
+    SettingsGoogleOverlaySurya
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -380,14 +384,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.proximity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
-
-# Google SystemUI overlay
-PRODUCT_PACKAGES += \
-    SystemUIGoogleOverlayHentai
-
-# Google SystemUI overlay
-PRODUCT_PACKAGES += \
-    SettingsGoogleOverlayHentaiSurya
 
 # Shims
 PRODUCT_PACKAGES += \
