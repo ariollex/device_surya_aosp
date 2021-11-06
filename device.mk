@@ -322,6 +322,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay
 
+PRODUCT_PACKAGES += \
+    SystemUIGoogleOverlayHentai \
+    SettingsGoogleOverlaySurya
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -380,14 +384,6 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     lib-imsvt
-
-# Google SystemUI overlay
-PRODUCT_PACKAGES += \
-    SystemUIGoogleOverlayHentai
-
-# Google SystemUI overlay
-PRODUCT_PACKAGES += \
-    SettingsGoogleOverlayHentaiSurya
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
