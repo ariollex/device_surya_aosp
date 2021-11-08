@@ -2,3 +2,6 @@ type pps_socket, file_type;
 
 # Insmod
 type sysfs_msm_boot, fs_type, sysfs_type;
+type sysfs_boot_adsp, sysfs_type, fs_type;
+type debugfs_ipc, debugfs_type, fs_type;
+
