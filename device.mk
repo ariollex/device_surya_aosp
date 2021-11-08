@@ -258,7 +258,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout)
 
 # Kernel Modules
-BOARD_VENDOR_KERNEL_MODULES += $(wildcard device/xiaomi/surya-kernel/modules/*.ko)
+BOARD_VENDOR_KERNEL_MODULES += $(wildcard device/xiaomi/surya-kernel/*.ko)
 
 # Lights
 PRODUCT_PACKAGES += \
