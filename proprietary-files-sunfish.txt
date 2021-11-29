@@ -113,6 +113,8 @@ vendor/lib64/libtinyxml2_1.so
 # Graphics (Vulkan)
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
+-vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk
+-vendor/app/gpu_profiling_vulkan_layer/gpu_profiling_vulkan_layer.apk
 
 # Postprocessing
 vendor/lib/libdisp-aba.so

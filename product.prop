@@ -13,6 +13,10 @@ ro.product.manufacturer=Google
 ro.product.model=Pixel 6 Pro
 ro.product.name=raven
 
+# VulkanAPI
+graphics.gpu.profiler.support=true
+graphics.gpu.profiler.vulkan_layer_apk=com.google.pixel.sunfish.gpuprofiling.vulkanlayer
+
 # Display - Set support hide display cutout feature
 ro.support_hide_display_cutout=true
 
