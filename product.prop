@@ -6,12 +6,12 @@ ro.lmk.log_stats=true
 persist.vendor.cne.feature=1
 
 # Device mask
-ro.build.fingerprint=google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys
+ro.build.fingerprint=google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys
 ro.product.brand=google
-ro.product.device=raven
+ro.product.device=redfin
 ro.product.manufacturer=Google
-ro.product.model=Pixel 6 Pro
-ro.product.name=raven
+ro.product.model=Pixel 5
+ro.product.name=redfin
 
 # VulkanAPI
 graphics.gpu.profiler.support=true
