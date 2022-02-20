@@ -33,7 +33,6 @@ write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 write_makefiles "${MY_DIR}/proprietary-files-sunfish.txt" true
-write_makefiles "${MY_DIR}/proprietary-files-raven.txt" true
 
 # Finish
 write_footers
