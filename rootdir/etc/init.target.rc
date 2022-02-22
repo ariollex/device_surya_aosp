@@ -28,6 +28,9 @@
 #
 
 on init
+    # Change permissions for /dev/diag
+    chmod 0666 /dev/diag
+
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
