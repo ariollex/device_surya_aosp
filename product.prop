@@ -2,7 +2,7 @@
 persist.vendor.cne.feature=1
 
 # Device mask
-ro.build.fingerprint=google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys
+ro.build.fingerprint=google/redfin/redfin:12/SP2A.220305.012/8177914:user/release-keys
 ro.product.brand=google
 ro.product.device=redfin
 ro.product.manufacturer=Google
