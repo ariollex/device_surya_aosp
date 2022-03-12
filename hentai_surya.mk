@@ -26,6 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit some common hentaiOS stuff.
 $(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 PRODUCT_NAME := hentai_surya
 PRODUCT_DEVICE := surya
