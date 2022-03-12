@@ -751,6 +751,11 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
+# Playing now
+system/etc/firmware/music_detector.descriptor|7ded8d7f2da36e489415b13c0aae796fde856639
+system/etc/firmware/music_detector.sound_model|ebe45ba82434b3e095661d4b9cef3f4856aa2699
+system/etc/firmware/music_detector.sound_model_2|247f7c741faa154dd35662d8562e92c4392e5e07
+
 # QMI
 system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
