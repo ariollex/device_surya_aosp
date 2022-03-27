@@ -26,6 +26,8 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 #
+on early-init
+    chmod 0755 /sys/kernel/tracing
 
 on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
