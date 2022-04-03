@@ -482,13 +482,17 @@ vendor/etc/init/dpmQmiMgr.rc
 -vendor/lib64/libdpmqmihal.so
 
 # DRM
+-vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 -vendor/bin/qseecomd
 vendor/etc/init/qseecomd.rc
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/gpfspath_oem_config.xml
 -vendor/lib/libStDrvInt.so|6d1216293d4d89921ae6a078bed4e4e02b7834fa
 -vendor/lib/libsecureui.so|6a6fbe60faf97a849364f6f2674f7ef723598750
 -vendor/lib/libsecureui_svcsock.so|c46da0a6d7ab981f2e30a8e374f2beec09562b8b
 -vendor/lib/libspl.so|79234756ba2403b3212d7b016349272c7d21d28e
+-vendor/lib/vendor.qti.hardware.qseecom@1.0.so
+-vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 -vendor/lib64/libGPreqcancel.so
 -vendor/lib64/libGPreqcancel_svc.so
 -vendor/lib64/libQSEEComAPI.so
@@ -508,6 +512,7 @@ vendor/etc/gpfspath_oem_config.xml
 -vendor/lib64/libspl.so|0fa8c0711f72fc8a914dce044cf8dddd79ee62e1
 -vendor/lib64/libssd.so
 -vendor/lib64/libtrustedapploader.so
+-vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 -system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so;MODULE=vendor.qti.hardware.tui_comm@1.0_system_ext
 -system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so;MODULE=vendor.qti.hardware.tui_comm@1.0_system_ext
