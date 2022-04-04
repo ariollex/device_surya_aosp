@@ -58,6 +58,9 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so)
             "${PATCHELF}" --add-needed "libgui-shim.so" "${2}"
             ;;
+        vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc)
+            sed -i '/vendor.qti.hardware.dsp@1.0::IDspService/d' "${2}"
+            ;;
     esac
 }
 
