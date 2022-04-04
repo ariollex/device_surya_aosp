@@ -61,6 +61,14 @@ function blob_fixup() {
         vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc)
             sed -i '/vendor.qti.hardware.dsp@1.0::IDspService/d' "${2}"
             ;;
+        vendor/etc/init/dpmQmiMgr.rc)
+            sed -i '/com.qualcomm.qti.dpm.api@1.0::IdpmQmi/d' "${2}"
+            ;;
+        vendor/etc/init/vppservice.rc)
+            sed -i '/vendor.qti.hardware.vpp@1.1::IHidlVppService/d' "${2}"
+            sed -i '/vendor.qti.hardware.vpp@1.2::IHidlVppService/d' "${2}"
+            sed -i '/vendor.qti.hardware.vpp@1.3::IHidlVppService/d' "${2}"
+            ;;
     esac
 }
 
