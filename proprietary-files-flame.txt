@@ -12,6 +12,43 @@
 -vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
 -vendor/lib64/libtinyxml2_1.so
 
+# DRM
+-system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so;MODULE=vendor.qti.hardware.tui_comm@1.0_system_ext
+-system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so;MODULE=vendor.qti.hardware.tui_comm@1.0_system_ext
+-vendor/bin/qseecomd
+vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
+-vendor/lib/libStDrvInt.so
+-vendor/lib/libsecureui.so
+-vendor/lib/libsecureui_svcsock.so
+-vendor/lib/libspl.so
+-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so;MODULE=vendor.qti.hardware.tui_comm@1.0_vendor
+-vendor/lib64/libGPreqcancel.so
+-vendor/lib64/libGPreqcancel_svc.so
+-vendor/lib64/libQSEEComAPI.so
+-vendor/lib64/libStDrvInt.so
+-vendor/lib64/libcpion.so
+-vendor/lib64/libdrmfs.so
+-vendor/lib64/libdrmtime.so
+-vendor/lib64/libhdcpsrm.so
+-vendor/lib64/libminkdescriptor.so
+-vendor/lib64/libminksocket.so
+-vendor/lib64/liboemcrypto.so
+-vendor/lib64/libops.so
+-vendor/lib64/libqisl.so
+-vendor/lib64/librpmb.so
+-vendor/lib64/libsecureui.so
+-vendor/lib64/libsecureui_svcsock.so
+-vendor/lib64/libspl.so
+-vendor/lib64/libssd.so
+-vendor/lib64/libtrustedapploader.so
+-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so;MODULE=vendor.qti.hardware.tui_comm@1.0_vendor
+
+# DRM widevine
+-vendor/bin/hw/android.hardware.drm@1.4-service.widevine
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+-vendor/lib64/libwvhidl.so
+
 # Graphics
 -vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk
 -vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk

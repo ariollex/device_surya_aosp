@@ -39,6 +39,9 @@ on early-init
     # Change ownership of sysfs power control node
     chown system graphics /sys/class/drm/card0/device/power/control
 
+on init
+    start vendor.qseecomd
+
 on late-init
     # Start services for bootanim
     start surfaceflinger
@@ -249,6 +252,12 @@ service vendor.qcom-sh /vendor/bin/init.qcom.sh
     user root
     group root system radio
     oneshot
+
+service vendor.qseecomd /vendor/bin/qseecomd
+    class core
+    user root
+    group root
+    shutdown critical
 
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
