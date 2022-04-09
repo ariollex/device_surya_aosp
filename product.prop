@@ -22,3 +22,7 @@ persist.sys.binary_xml=false
 # Chipset
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM7150
+
+# Vulkan
+graphics.gpu.profiler.support=true
+graphics.gpu.profiler.vulkan_layer_apk=com.google.pixel.coral.gpuprofiling.vulkanlayer
