@@ -129,6 +129,9 @@ BOARD_KERNEL_CMDLINE += androidboot.theme=1
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
