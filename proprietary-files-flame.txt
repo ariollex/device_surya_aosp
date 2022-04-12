@@ -53,8 +53,8 @@ vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 -vendor/lib64/libwvhidl.so
 
 # Graphics
--vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk
 -vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk
+-vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk
 -vendor/app/gpu_profiling_vulkan_layer/gpu_profiling_vulkan_layer.apk
 -vendor/lib/egl/eglSubDriverAndroid.so
 -vendor/lib/egl/libEGL_adreno.so
@@ -105,3 +105,12 @@ vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc|b61cd324
 -vendor/lib64/libqcbor.so
 -vendor/lib64/libqtikeymaster4.so
 -vendor/lib64/libspcom.so
+
+# Now Playing
+-product/etc/firmware/music_detector.descriptor;MODULE=music_detector.descriptor
+-product/etc/firmware/music_detector.sound_model;MODULE=music_detector.sound_model
+-product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk
+-vendor/dsp/sdsp/ambient.napp_header:vendor/etc/chre/ambient.napp_header;MODULE=ambient.napp_header
+-vendor/dsp/sdsp/ambient.so:vendor/etc/chre/ambient.so
+-vendor/dsp/sdsp/ambient_micro.napp_header:vendor/etc/chre/ambient_micro.napp_header;MODULE=ambient_micro.napp_header
+-vendor/dsp/sdsp/ambient_micro.so:vendor/etc/chre/ambient_micro.so

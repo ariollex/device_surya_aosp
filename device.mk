@@ -136,6 +136,10 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/permissions/google-hiddenapi-package-whitelist-carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist-carriersettings.xml \
    $(LOCAL_PATH)/configs/permissions/privapp-permissions-google-carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-carriersettings.xml
 
+# CHRE
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/configs/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
