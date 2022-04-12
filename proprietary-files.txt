@@ -383,7 +383,6 @@ vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # Charger
--bin/chargeonlymode|3ee70c108f0c47927181a0d22ab9805f792ac74a
 -vendor/bin/hvdcp_opti
 
 # CNE
