@@ -654,6 +654,12 @@ vendor/libnfc-nxp_RF.conf
 -vendor/bin/pm-service
 -vendor/lib64/libperipheral_client.so
 
+# QCV SOC Helper
+vendor/bin/init.qti.qcv.sh
+vendor/etc/init/init.qti.qcv.rc
+-vendor/lib64/libsoc_helper.so
+-vendor/lib64/libsoc_helper_jni.so
+
 # QMI
 system_ext/etc/permissions/qti_permissions.xml
 -vendor/bin/irsc_util
