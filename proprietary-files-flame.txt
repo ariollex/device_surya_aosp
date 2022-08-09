@@ -54,6 +54,27 @@ vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 -vendor/lib64/libwvhidl.so
 
+# GPS
+-vendor/bin/loc_launcher
+-vendor/bin/lowi-server
+-vendor/bin/xtra-daemon
+-vendor/lib/libgnsspps.so
+-vendor/lib/libizat_core.so
+-vendor/lib/liblbs_core.so
+-vendor/lib64/libcdfw.so
+-vendor/lib64/libcdfw_remote_api.so
+-vendor/lib64/libdataitems.so
+-vendor/lib64/libgnsspps.so
+-vendor/lib64/libizat_core.so
+-vendor/lib64/liblbs_core.so
+-vendor/lib64/libloc_api_v02.so
+-vendor/lib64/liblowi_client.so
+-vendor/lib64/liblowi_wifihal.so
+-vendor/lib64/libqcc_file_agent.so
+-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so;MODULE=vendor.qti.hardware.qccsyshal@1.0_vendor
+-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so;MODULE=vendor.qti.hardware.qccsyshal@1.0_system_ext
+
+
 # Graphics
 -vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk
 -vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk
