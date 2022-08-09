@@ -39,4 +39,3 @@ write_makefiles "${MY_DIR}/${PROPRIETARY_FILES_OTHER}" true
 
 # Finish
 write_footers
-$SHELL
