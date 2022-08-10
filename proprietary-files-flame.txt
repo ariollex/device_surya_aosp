@@ -1,5 +1,42 @@
 # Blobs extracted from flame-ota-sq3a.220705.003.a1-c3ee51db
 
+# Bluetooth
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
+-vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
+-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+-vendor/lib/hw/hardware.google.bluetooth.sar@1.0-impl.so
+-vendor/lib64/hw/hardware.google.bluetooth.sar@1.0-impl.so
+-vendor/lib/hw/audio.bluetooth.default.so
+-vendor/lib64/hw/audio.bluetooth.default.so
+-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
+-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
+-vendor/lib/android.hardware.bluetooth.audio@2.1.so
+-vendor/lib/android.hardware.bluetooth.audio@2.0.so
+-vendor/lib64/android.hardware.bluetooth.audio@2.1.so
+-vendor/lib64/android.hardware.bluetooth.audio@2.0.so
+-system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+-system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
+-vendor/lib/android.hardware.bluetooth@1.0.so
+-vendor/lib64/android.hardware.bluetooth@1.0.so
+-vendor/lib/hardware.google.bluetooth.bt_channel_avoidance@1.0.so
+-vendor/lib64/hardware.google.bluetooth.bt_channel_avoidance@1.0.so
+-vendor/lib/hardware.google.bluetooth.sar@1.0.so
+-vendor/lib64/hardware.google.bluetooth.sar@1.0.so
+-vendor/lib/libbluetooth_audio_session_qti.so
+-vendor/lib64/libbluetooth_audio_session_qti.so
+-vendor/lib/libbluetooth_audio_session.so
+-vendor/lib64/libbluetooth_audio_session.so
+-vendor/lib64/libbtnv.so
+-vendor/lib/btaudio_offload_if.so
+-vendor/lib64/btaudio_offload_if.so
+
+# Bluetooth (aptX)
+-system_ext/lib64/libaptXHD_encoder.so
+-system_ext/lib64/libaptX_encoder.so
+
 # Charger
 -system/bin/charger:bin/charger
 
@@ -74,7 +111,6 @@ vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 -vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so;MODULE=vendor.qti.hardware.qccsyshal@1.0_vendor
 -system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so;MODULE=vendor.qti.hardware.qccsyshal@1.0_system_ext
 
-
 # Graphics
 -vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk
 -vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk
@@ -137,3 +173,88 @@ vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc|b61cd324
 -vendor/dsp/sdsp/ambient.so:vendor/etc/chre/ambient.so
 -vendor/dsp/sdsp/ambient_micro.napp_header:vendor/etc/chre/ambient_micro.napp_header;MODULE=ambient_micro.napp_header
 -vendor/dsp/sdsp/ambient_micro.so:vendor/etc/chre/ambient_micro.so
+
+# Radio (IMS)
+-system_ext/app/uceShimService/uceShimService.apk
+-system_ext/priv-app/ims/ims.apk
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
+-system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
+-system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
+-system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar
+-system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
+-system_ext/lib64/lib-imsvideocodec.so
+-system_ext/lib64/lib-imsvt.so
+-system_ext/lib64/lib-imsvtextutils.so
+-system_ext/lib64/lib-imsvtutils.so
+-system_ext/lib64/libdiag_system.so
+-system_ext/lib64/libimscamera_jni.so
+-system_ext/lib64/libimsmedia_jni.so
+-system_ext/lib64/vendor.qti.diaghal@1.0.so
+-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE=vendor.qti.imsrtpservice@3.0_system_ext
+-vendor/bin/ims_rtp_daemon
+-vendor/bin/imsdatadaemon
+-vendor/bin/imsqmidaemon
+-vendor/bin/imsrcsd
+vendor/etc/init/ims_rtp_daemon.rc
+vendor/etc/init/imsdatadaemon.rc
+vendor/etc/init/imsqmidaemon.rc
+vendor/etc/init/imsrcsd.rc
+vendor/etc/seccomp_policy/imsrtp.policy
+-vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so
+-vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so
+-vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so
+-vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so
+-vendor/lib64/com.qualcomm.qti.uceservice@2.0.so
+-vendor/lib64/com.qualcomm.qti.uceservice@2.1.so
+-vendor/lib64/com.qualcomm.qti.uceservice@2.2.so
+-vendor/lib64/lib-imscmservice.so
+-vendor/lib64/lib-imsdpl.so
+-vendor/lib64/lib-imsqimf.so
+-vendor/lib64/lib-imsrcs-v2.so
+-vendor/lib64/lib-imsrcsbaseimpl.so
+-vendor/lib64/lib-imsvtcore.so
+-vendor/lib64/lib-imsxml.so
+-vendor/lib64/lib-rcsconfig.so
+-vendor/lib64/lib-rtpcommon.so
+-vendor/lib64/lib-rtpcore.so
+-vendor/lib64/lib-rtpsl.so
+-vendor/lib64/lib-siputility.so
+-vendor/lib64/lib-uceservice.so
+-vendor/lib64/librcc.so
+-vendor/lib64/vendor.qti.googleext.imsext@1.0.so
+-vendor/lib64/vendor.qti.googleext.imsext@2.0.so
+-vendor/lib64/vendor.qti.googleext.imsext@3.0.so
+-vendor/lib64/vendor.qti.googleext.imsext@4.0.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so
+-vendor/lib64/vendor.qti.hardware.radio.ims@1.8.so
+-vendor/lib64/vendor.qti.ims.callcapability@1.0.so
+-vendor/lib64/vendor.qti.ims.callinfo@1.0.so
+-vendor/lib64/vendor.qti.ims.factory@1.0.so
+-vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
+-vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
+-vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
+-vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE=vendor.qti.imsrtpservice@3.0_vendor
+
+# RadioExt
+-vendor/bin/hw/vendor.google.radioext@1.0-service
+vendor/etc/init/vendor.google.radioext@1.0-service.rc
+-vendor/lib/vendor.google.radioext@1.0.so
+-vendor/lib/vendor.google.radioext@1.1.so
+-vendor/lib/vendor.google.radioext@1.2.so
+-vendor/lib/vendor.google.radioext@1.3.so
+-vendor/lib64/vendor.google.radioext@1.0.so
+-vendor/lib64/vendor.google.radioext@1.1.so
+-vendor/lib64/vendor.google.radioext@1.2.so
+-vendor/lib64/vendor.google.radioext@1.3.so
+
+# RadioExt - Bluetooth Stats
+vendor/etc/bluetooth_power_limits.csv
